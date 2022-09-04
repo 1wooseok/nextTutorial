@@ -10,7 +10,7 @@ export const siteTitle = 'Next.js Sample website';
 export default function Layout({ children, home }) {
   return <div className={styles.container}>
     <Head>
-      <link rel="icon" href="/images/mdsign.jpg" />
+      <link rel="icon" href="/images/profile.jpg" />
       <meta
         name="description"
         content="Learn how to build a personal website using Next.js"
@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
         <>
           <Image
             priority
-            src="/images/mdsign.jpg"
+            src="/images/profile.jpg"
             className={utilStyles.borderCircle}
             height={144}
             width={144}
@@ -44,7 +44,7 @@ export default function Layout({ children, home }) {
             <a>
               <Image
                 priority
-                src="/images/mdsign.jpg"
+                src="/images/profile.jpg"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
